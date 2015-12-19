@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.team.courseselector"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.team.courseselector.GroupActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.team.courseselector.SubjectActivity"
+            android:label="@string/title_activity_subject" >
+        </activity>
+        <activity
+            android:name="com.team.courseselector.CourseListActivity"
+            android:label="@string/title_activity_course_list" >
+        </activity>
+        <activity
+            android:name="com.team.courseselector.CourseLiteInfoActivity"
+            android:label="@string/title_activity_course_lite_info" >
+        </activity>
+        <activity
+            android:name="com.team.courseselector.AddEvaluationActivity"
+            android:label="@string/title_activity_add_evaluation" >
+        </activity>
+        <activity
+            android:name="com.team.courseselector.WeightActivity"
+            android:label="@string/title_activity_add_evaluation" >
+        </activity>
+        <activity
+            android:name="com.team.courseselector.ResultPageActivity"
+            android:label="@string/title_activity_add_evaluation" >
+        </activity>
+        <activity
+            android:name="com.team.courseselector.CourseEdit"
+            android:label="@string/title_activity_add_evaluation" >
+        </activity>
+    </application>
+
+</manifest>

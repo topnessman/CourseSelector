@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/tamier/.gradle/caches/modules-2/files-2.1/com.google.android.apps.common.testing.accessibility.framework/accessibility-test-framework/2.0/7837f95bdff9f797003454247fef02b78d49ae75/accessibility-test-framework-2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7837f95bdff9f797003454247fef02b78d49ae75">
+        <dex dex="/home/tamier/ece651/Final/app/build/intermediates/pre-dexed/androidTest/debug/accessibility-test-framework-2.0-477fc20ab5e6bf528fb772123d15f35009a4c500.jar" />
+    </item>
+    <item
+        jar="/home/tamier/ece651/Final/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-contrib/2.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="50b7a0657f2cad319e157fa20b0f14ad2cc3e86d">
+        <dex dex="/home/tamier/ece651/Final/app/build/intermediates/pre-dexed/androidTest/debug/classes-1724496d8e8f0d0dbea332cd6b15e20945658540.jar" />
+    </item>
+
+</items>
